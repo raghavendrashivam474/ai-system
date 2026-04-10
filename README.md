@@ -32,7 +32,7 @@
 
 ### Installation
 
-\\\ash
+~Bash
 # 1. Clone repository
 git clone <your-repo-url>
 cd ai-system
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ### Run
 
-\\\ash
+~Bash
 uvicorn main:app --reload
 \\\
 
