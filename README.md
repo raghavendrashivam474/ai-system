@@ -1,6 +1,19 @@
-﻿# 🤖 Local AI System
+﻿<div align="center">
 
-**Self-sufficient AI system running Mistral via Ollama - 100% local, no API calls**
+# 🤖 Local AI System
+
+[![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.109-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Ollama](https://img.shields.io/badge/Ollama-0.20.4-orange)](https://ollama.com/)
+[![Mistral](https://img.shields.io/badge/Mistral-7B-red)](https://mistral.ai/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Day%201%20Complete-success)](README.md)
+
+**Self-sufficient AI • RAG-ready • Zero API costs • 100% local**
+
+[Features](#-features) • [Quick Start](#-quick-start) • [API Docs](#-api-endpoints) • [Roadmap](#-roadmap)
+
+</div>
 
 ## 🎯 Features
 
