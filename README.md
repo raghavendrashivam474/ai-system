@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-﻿<div align="center">
+﻿﻿<div align="center">
 
 # 🤖 Local AI System
 
@@ -405,4 +404,4 @@ Day 1: ✅ Foundation Complete
 ⭐ Star this repo • 🐛 Report Bug • 💡 Request Feature
 
 </div> ```
->>>>>>> Stashed changes
+
