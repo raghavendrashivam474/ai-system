@@ -124,32 +124,16 @@ MIT
 ---
 
 ## 🏗️ Architecture
-┌─────────────────┐
-│ User Query │
-└────────┬────────┘
-│
-▼
-┌─────────────────┐
-│ FastAPI Server │ ← main.py (Port 8000)
-└────────┬────────┘
-│
-▼
-┌─────────────────┐
-│ LLM Interface │ ← llm.py (Context injection)
-└────────┬────────┘
-│
-▼
-┌─────────────────┐
-│ Ollama Runtime │ ← Local AI server
-└────────┬────────┘
-│
-▼
-┌─────────────────┐
-│ Mistral 7B │ ← 4.4GB model in memory
-└─────────────────┘
 
-text
+| Layer | Component | File | Description |
+|-------|-----------|------|-------------|
+| 1️⃣ | **User Interface** | - | Browser / API client |
+| 2️⃣ | **API Server** | ``main.py`` | FastAPI on Port 8000 |
+| 3️⃣ | **LLM Interface** | ``llm.py`` | Context injection & prompts |
+| 4️⃣ | **AI Runtime** | Ollama | Local AI server |
+| 5️⃣ | **Model** | Mistral 7B | 4.4GB neural network |
 
+**Flow:** ``User Query → FastAPI → LLM Interface → Ollama → Mistral → Response``
 
 ---
 
