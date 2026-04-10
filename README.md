@@ -32,9 +32,9 @@
 
 ### Installation
 
-~Bash
+```bash
 # 1. Clone repository
-git clone <your-repo-url>
+git clone https://github.com/raghavendrashivam474/ai-system.git
 cd ai-system
 
 # 2. Install Ollama from https://ollama.com/download
@@ -44,17 +44,16 @@ ollama pull mistral
 
 # 4. Set up Python environment
 python -m venv venv
-.\venv\Scripts\activate
+.\venv\Scripts\activate  # Windows
+source venv/bin/activate  # Mac/Linux
 
 # 5. Install dependencies
 pip install -r requirements.txt
-\\\
 
 ### Run
 
-~Bash
+```bash
 uvicorn main:app --reload
-\\\
 
 Open: http://127.0.0.1:8000/docs
 
