@@ -403,5 +403,3 @@ Day 1: ✅ Foundation Complete
 
 ⭐ Star this repo • 🐛 Report Bug • 💡 Request Feature
 
-</div> ```
-
